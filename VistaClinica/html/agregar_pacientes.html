@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agregar Paciente</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,8 +20,8 @@
                         Gestión de Pacientes
                     </a>
                     <div class="dropdown-menu" aria-labelledby="pacientesDropdown">
-                        <a class="dropdown-item" href="agregar_pacientes.html">Agregar Paciente</a>
-                        <a class="dropdown-item" href="#">Listar Pacientes</a>
+                        <a class="dropdown-item" href="../html/agregar_pacientes.html">Agregar Paciente</a>
+                        <a class="dropdown-item" href="../html/listar_pacientes.html">Listar Pacientes</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -30,6 +31,15 @@
                     <div class="dropdown-menu" aria-labelledby="odontologosDropdown">
                         <a class="dropdown-item" href="#">Buscar Odontólogo</a>
                         <a class="dropdown-item" href="#">Agregar Odontólogo</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="turnosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gestión de Turnos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="turnosDropdown">
+                        <a class="dropdown-item" href="#">Agendar turno</a>
+                        <a class="dropdown-item" href="#">Eliminar turno</a>
                     </div>
                 </li>
             </ul>
@@ -76,5 +86,8 @@
     </div>
 
     <script src="../js/agregarPaciente.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
